@@ -33,19 +33,33 @@ Your application
 SpatialAnalyzer
 ```
 
-The planned ecosystem includes:
+The active ecosystem includes:
 
-- `briosa` — the gRPC server and core protocol
-- `briosa-dotnet` — .NET client libraries
-- `briosa-js` — JavaScript and TypeScript client libraries
-- `briosa-py` — Python client libraries
-- documentation, examples, and compatibility tests
+- [`briosa`](https://github.com/spatialanalyzer/briosa) — the gRPC server,
+  exact-target protocol, command catalog, generators, and server tests
+- [`briosa-dotnet`](https://github.com/spatialanalyzer/briosa-dotnet) — thin
+  .NET client
+- [`briosa-js`](https://github.com/spatialanalyzer/briosa-js) — thin
+  JavaScript and TypeScript client
+- [`briosa-py`](https://github.com/spatialanalyzer/briosa-py) — thin Python
+  client
+- [`community`](https://github.com/spatialanalyzer/community) — organization
+  Discussions and community navigation
+- [`governance`](https://github.com/spatialanalyzer/governance) — organization
+  policy, stewardship, and open governance questions
 
 ## Project status
 
-Briosa is in its founding and initial-development stage. APIs, supported
-SpatialAnalyzer releases, versioning, and release policies are still being
-established.
+Briosa and its thin clients are in active early-stage development and have not
+yet published stable releases. APIs, supported SpatialAnalyzer releases, and
+release policies remain subject to review.
+
+Follow cross-repository priorities in the
+[Briosa Roadmap & Delivery project](https://github.com/orgs/spatialanalyzer/projects/1)
+and architecture evidence in
+[SpatialAnalyzer Discussions](https://github.com/orgs/spatialanalyzer/discussions),
+beginning with
+[Discussion #1](https://github.com/orgs/spatialanalyzer/discussions/1).
 
 The project begins under the
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
@@ -60,10 +74,9 @@ operations.
 
 ## Governance
 
-The organization is currently independently administered and is being
-developed with support from Hexagon. Its governance is intentionally
-provisional while the founding maintainers establish the project's long-term
-institutional and community model.
+The organization is currently independently administered. Its governance is
+intentionally provisional while the founding maintainers establish the
+project's long-term institutional and community model.
 
 Read the public
 [project charter and governance policies](https://github.com/spatialanalyzer/governance).
@@ -71,18 +84,19 @@ Read the public
 ## Get involved
 
 We are starting with a small founding team and intend to grow into a
-manufacturing-industry community. As repositories become available, you will
-be able to:
+manufacturing-industry community. You can:
 
-- try Briosa against supported SpatialAnalyzer releases;
-- report bugs and propose improvements;
+- review the active roadmap and early-stage repositories;
+- report bugs and propose improvements in the owning repository;
 - contribute server, client, documentation, and example changes; and
-- help shape a consistent automation interface across programming languages.
+- use Discussions to help shape a consistent automation interface across
+  programming languages.
 
-Watch this organization for the first Briosa repositories and releases.
+Watch the repositories for progress toward the first releases.
 
 ---
 
-SpatialAnalyzer is a Hexagon product. Briosa is not a replacement for official
-Hexagon product support. Product and trademark usage is governed separately
-from the open-source license.
+SpatialAnalyzer is a Hexagon product. These independently administered
+open-source projects do not imply Hexagon affiliation, endorsement, or support,
+and Briosa is not a replacement for official Hexagon product support. Product
+and trademark usage is governed separately from the open-source license.
