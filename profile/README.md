@@ -35,8 +35,9 @@ SpatialAnalyzer
 
 The active ecosystem includes:
 
-- [`briosa`](https://github.com/spatialanalyzer/briosa) — the gRPC server,
-  exact-target protocol, command catalog, generators, and server tests
+- [`briosa`](https://github.com/spatialanalyzer/briosa) — the gRPC server and
+  protocol, supervised SDK worker, handwritten typed MP operations, and server
+  tests for exact SpatialAnalyzer targets 2026.1.0529.7 and 2024.1.0508.5
 - [`briosa-dotnet`](https://github.com/spatialanalyzer/briosa-dotnet) — thin
   .NET client
 - [`briosa-js`](https://github.com/spatialanalyzer/briosa-js) — thin
