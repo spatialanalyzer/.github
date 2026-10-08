@@ -44,6 +44,10 @@ The active ecosystem includes:
   JavaScript and TypeScript client
 - [`briosa-py`](https://github.com/spatialanalyzer/briosa-py) — thin Python
   client
+- [`briosa-installer`](https://github.com/spatialanalyzer/briosa-installer) —
+  Windows GUI and CLI installer that manages Briosa server installations
+- [`briosa-docs`](https://github.com/spatialanalyzer/briosa-docs) — the
+  [briosa.dev](https://briosa.dev/) documentation website
 - [`community`](https://github.com/spatialanalyzer/community) — organization
   Discussions and community navigation
 - [`governance`](https://github.com/spatialanalyzer/governance) — organization
@@ -51,9 +55,9 @@ The active ecosystem includes:
 
 ## Project status
 
-Briosa and its thin clients are in active early-stage development and have not
-yet published stable releases. APIs, supported SpatialAnalyzer releases, and
-release policies remain subject to review.
+Briosa and its thin clients are in active development. Current releases are
+pre-1.0, so APIs, supported SpatialAnalyzer releases, and release policies
+remain subject to change.
 
 Follow cross-repository priorities in the
 [Briosa Roadmap & Delivery project](https://github.com/orgs/spatialanalyzer/projects/1)
@@ -93,7 +97,7 @@ manufacturing-industry community. You can:
 - use Discussions to help shape a consistent automation interface across
   programming languages.
 
-Watch the repositories for progress toward the first releases.
+Watch the repositories for new releases.
 
 ---
 
